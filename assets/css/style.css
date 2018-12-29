@@ -1,0 +1,170 @@
+* {
+		box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 150%;
+	background: url(images/marbleback.jpg);
+	}
+
+footer {
+	vertical-align: text-bottom;
+	font-size: 10px;
+	padding: 15px;
+	background: #d1d1e0;
+	text-align: center;
+	width: 100%;
+	clear: both;
+}
+
+h1 {
+	background-color: #5A2BF4;
+	color:#FEFEFE;
+	padding: 19.5px;
+	text-align: center;
+	margin-left: 52px;
+	margin-right: -40px;
+	margin-top: 0px;
+	font-size: 32px;
+}
+
+.navigationbar {
+	background: white;
+	height: 77px;
+}
+
+.navbox {
+	float: right;
+	padding: 26px;
+	background: white;
+	text-align: center;
+	word-spacing: 30px;
+	text-justify: inter-word;
+	vertical-align: middle;
+}
+
+.navlink {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.contentheader {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+ .medialinks {
+	text-align: center;
+	padding: 20px;
+	min-height: 150px;
+	min-width: 174px;
+	width: 225px;
+	background: #FEFEFE;
+	border: 1px solid #010000;
+	margin-top: 40px;
+ }
+
+ .contentbox {
+	background: #FFFFFF;
+	border: 1px solid #010000;
+	align-content: center;
+	overflow: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.dixie {
+	float: left;
+	margin-right: 25px;
+}
+
+.memes {
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border: 1px solid #010000;
+}
+
+.contactspacing {
+	margin-bottom: 20px;
+}
+
+.fineprint {
+	font-size: 6px;
+	line-height: 8px;
+}
+
+.center-nav {
+	text-align: center;
+}
+
+#submitbutton {
+	margin-bottom: 30px;
+	background-color: #5A2BF4;
+}
+
+#aboutboxfix {
+
+}
+
+@media (max-width: 980px){
+
+	.dixie{
+		float: none;
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	.contentheader {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 768px){
+
+	.navigationbar {
+		padding-right: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	.navbox {
+		float: none;
+		margin-top: -8px;
+	}
+
+	.contentbox{
+		margin-bottom: 0px;
+	}
+
+	.medialinks {
+		margin-bottom: 25px;
+		width: 100%;
+	}
+
+@media (max-width: 767px){
+
+	.navigationbar {
+		margin-bottom: 80px;
+		padding-left: 0px;
+	}
+
+	.nav-adjust {
+		padding-right: 0px;
+	}
+
+	.contentbox {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
